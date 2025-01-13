@@ -14,11 +14,10 @@ export default function Progressor() {
 
           <div className="mt-2 mr-4">
             <h6 className="text-base font-bold text-pink-500">
-              <span className="text-orange-600">Step 1: </span> Pick Your Sweet
-              Treat!
+              <span className="text-orange-600">Step 1: </span> Pick Your Sweet Treat!
             </h6>
             <p className="text-xs font-bold text-blue-900">
-              "Explore the World of Delights – What's Your Pick?
+              &quot;Explore the World of Delights &ndash; What&apos;s Your Pick?&quot;
             </p>
           </div>
         </div>
@@ -33,11 +32,10 @@ export default function Progressor() {
 
           <div className="mt-2 mr-4">
             <h6 className="text-base font-bold text-pink-500">
-              <span className="text-orange-600">Step 2: </span>Add Your
-              Toppings!
+              <span className="text-orange-600">Step 2: </span>Add Your Toppings!
             </h6>
             <p className="text-xs font-bold text-blue-900">
-              "Add a Dash of Yum – It’s Your Creation!"
+              &quot;Add a Dash of Yum &ndash; It&apos;s Your Creation!&quot;
             </p>
           </div>
         </div>
@@ -52,11 +50,10 @@ export default function Progressor() {
 
           <div className="mt-2 mr-4">
             <h6 className="text-base font-bold text-pink-500">
-              <span className="text-orange-600">Step 3: </span>Scoop It Up –
-              It's Time to Order!
+              <span className="text-orange-600">Step 3: </span>Scoop It Up &ndash; It&apos;s Time to Order!
             </h6>
             <p className="text-xs font-bold text-blue-900">
-              "Final Step to Ice Cream Heaven – Let’s Go!"
+              &quot;Final Step to Ice Cream Heaven &ndash; Let&apos;s Go!&quot;
             </p>
           </div>
         </div>

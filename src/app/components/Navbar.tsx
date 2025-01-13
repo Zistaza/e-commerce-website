@@ -32,7 +32,7 @@ export default function Navbar() {
 
               {/* Promo Text */}
               <p className="text-xs sm:text-sm md:text-lg font-bold text-black hidden sm:block">
-                "Sweetness on Wheels – Grab It Fast!"
+              &quot;Sweetness on Wheels &ndash; Grab It Fast!&quot;
                 <span className="text-pink-400"> Just 15 Minutes Away!</span>
               </p>
 

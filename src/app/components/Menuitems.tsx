@@ -65,10 +65,10 @@ const Menu = () => {
         <div className="relative z-10">
           <div className="max-w-6xl mx-auto text-center mb-8">
             <h1 className="text-5xl font-bold text-purple-800 mb-4">
-            "Indulge in Our Creamy Ice Creams!"
+            Indulge in Our Creamy Ice Creams!
             </h1>
             <p className="text-xl font-bold text-rose-600">
-            Savor the taste of our flavorful ice creams—get yours today!
+            Savor the taste of our flavorful ice creams! get yours today!
 
 
 
@@ -102,8 +102,7 @@ const Menu = () => {
             {showCart && (
               <div className="mt-6 bg-white p-6 rounded-lg shadow-lg">
                 <h2 className="text-4xl underline text-center font-bold mb-4 text-purple-700">
-                "Your Sweet Picks:"
-                </h2>
+                Your Sweet Picks:                </h2>
                 {cart.length > 0 ? (
                   <div>
                     <ul>

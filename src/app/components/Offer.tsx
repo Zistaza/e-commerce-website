@@ -10,17 +10,17 @@ const SpecialOffers: React.FC = () => {
   const offers: Offer[] = [
     {
       title: "Happy Hour",
-      description: "Unmissable Deal Alert! 70% Off Ice Creams – 5PM to 7PM!"
+      description: "Unmissable Deal Alert! 70% Off Ice Creams ! 5PM to 7PM!"
     },
 
     {
       title: "Family Bundle Deal",
-      description: "Treat the family – 4 scoops, pay for 3!"
+      description: "Treat the family ! 4 scoops, pay for 3!"
     },
 
     {
       title: "Ice Cream Party Pack",
-      description: " Share the Joy – 10 Mini Cones in One Pack!"
+      description: " Share the Joy ! 10 Mini Cones in One Pack!"
     },
   ];
 
