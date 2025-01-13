@@ -1,5 +1,5 @@
 import React from "react";
-import { Flavour } from "@/pages/types";
+import { Flavour } from "@/types/types";
 import Image from "next/image";
 
 interface FlavourCardProps extends Flavour {

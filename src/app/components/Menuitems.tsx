@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 
 import FlavourCard from "./FlavourCard";
-import { Flavour } from "@/pages/types";
+import { Flavour } from '@/types/types';
 import Image from "next/image";
 
 const Menu = () => {
