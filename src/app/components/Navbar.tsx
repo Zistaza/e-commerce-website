@@ -3,6 +3,7 @@ import { LuIceCreamBowl } from "react-icons/lu";
 import { BsSearchHeartFill } from "react-icons/bs";
 import { FaCloudBolt } from "react-icons/fa6";
 import { FaCarTunnel } from "react-icons/fa6";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -32,7 +33,7 @@ export default function Navbar() {
 
               {/* Promo Text */}
               <p className="text-xs sm:text-sm md:text-lg font-bold text-black hidden sm:block">
-              &quot;Sweetness on Wheels &ndash; Grab It Fast!&quot;
+                &quot;Sweetness on Wheels &ndash; Grab It Fast!&quot;
                 <span className="text-pink-400"> Just 15 Minutes Away!</span>
               </p>
 
@@ -40,10 +41,12 @@ export default function Navbar() {
               <FaCarTunnel className="w-6 h-6 rounded-full relative ring-2 ring-lime-500 hover:text-red-500 text-blue-700" />
 
               {/* Profile Picture */}
-              <img
-                className="inline-block w-10 h-10 sm:w-20 sm:h-20 rounded-full ring-2 ring-rose-400"
+              <Image
                 src="https://as1.ftcdn.net/v2/jpg/02/32/59/98/1000_F_232599886_typki5F4H3mPBz2hTVnLzKaFq0jFsPBc.jpg"
                 alt="main pic"
+                width={80}
+                height={80}
+                className="inline-block sm:w-20 sm:h-20 rounded-full ring-2 ring-rose-400"
               />
             </div>
 
@@ -54,7 +57,7 @@ export default function Navbar() {
                   className="rounded-3xl py-2 px-3 outline-none text-xs w-full pr-10"
                   placeholder="Search Here..."
                 />
-                
+
                 <BsSearchHeartFill className="w-5 h-5 text-lime-500 absolute right-3 top-1/2 transform -translate-y-1/2" />
               </div>
             </div>
